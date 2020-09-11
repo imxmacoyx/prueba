@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # POST enviar información para almacenar de browser -> backend
   # PUT y PATH orientado al update de los datos
   # DELETE borar información
-  #resources :users, only [:new,:create]
-
+  resources :users, only: [:new, :create]
   
+
 end
